@@ -24,8 +24,7 @@ Esta API **não possui frontend** — todas as requisições são feitas via **P
 - **PHP** 8.1+
 - **Composer**
 - **MySQL** ou **MariaDB**
-- **Postman** (para testes)
-- (Opcional) XAMPP / WAMP / Laragon no Windows
+- **Postman** 
 
 ---
 
@@ -263,5 +262,3 @@ Este projeto é distribuído sob a licença **MIT**.
 ## 👨‍💻 Autor
 **Mitalo Ammon Rodrigues Ribeiro**  
 Desenvolvedor Júnior — Salvador, Bahia  
-📧 [mitaloammon@hotmail.com]  
-💼 [https://www.linkedin.com/in/mitalo-ammon/]
