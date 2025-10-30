@@ -33,8 +33,8 @@ Esta API **não possui frontend** — todas as requisições são feitas via **P
 
 ### 1️⃣ Clonar o repositório
 ```bash
-git clone <URL_DO_REPOSITORIO>
-cd <nome-do-projeto>
+git clone <[https://github.com/mitaloammon/CollaborativeManagementApp]>
+cd <CollaborativeManagementApp>
 ```
 
 ### 2️⃣ Instalar dependências
@@ -155,8 +155,8 @@ http://127.0.0.1:8000/api/v1
 **Body JSON:**
 ```json
 {
-  "name": "John Doe",
-  "email": "john@example.com",
+  "name": "Name Exemple",
+  "email": "name@example.com",
   "password": "123456",
   "password_confirmation": "123456"
 }
@@ -170,7 +170,7 @@ http://127.0.0.1:8000/api/v1
 **Body JSON:**
 ```json
 {
-  "email": "john@example.com",
+  "email": "name@example.com",
   "password": "123456"
 }
 ```
@@ -255,27 +255,6 @@ php artisan optimize:clear
 
 ---
 
-## 🧠 Dicas de Debug
-
-| Problema | Solução |
-|-----------|----------|
-| Rotas não aparecem | Verifique se `routes/api.php` está na pasta `routes/` e rode `php artisan optimize:clear` |
-| Erro 401 - Unauthenticated | Confirme o uso do token `Bearer` e o trait `HasApiTokens` no model `User` |
-| Falha ao conectar no DB | Confira variáveis de ambiente no `.env` |
-| Erros 404 | Rode `php artisan route:list` e confirme prefixo `/api/v1` |
-
----
-
-## 🧭 Próximos Passos
-
-- Adicionar validações com **FormRequest**
-- Implementar **Policies** e **Gates** para controle de permissões
-- Criar documentação **Swagger / OpenAPI**
-- Escrever testes com **Pest** ou **PHPUnit**
-- Criar **seeders** de usuários e projetos de exemplo
-
----
-
 ## 📜 Licença
 Este projeto é distribuído sob a licença **MIT**.
 
@@ -284,5 +263,5 @@ Este projeto é distribuído sob a licença **MIT**.
 ## 👨‍💻 Autor
 **Mitalo Ammon Rodrigues Ribeiro**  
 Desenvolvedor Júnior — Salvador, Bahia  
-📧 [Seu email aqui]  
-💼 [LinkedIn ou GitHub aqui]
+📧 [mitaloammon@hotmail.com]  
+💼 [https://www.linkedin.com/in/mitalo-ammon/]
